@@ -1,0 +1,6 @@
+.dccache
+/numpretty.egg-info/
+/build/
+/dist/
+*.pyc
+test.py
