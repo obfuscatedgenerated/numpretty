@@ -13,6 +13,6 @@ Numpretty converts numbers into their human-readable form, efficiently.
 ```python
 import numpretty as npf
 
-print(npf.pretiffy(1000))
+print(npf.prettify(1000))
 # prints 1K
 ```
