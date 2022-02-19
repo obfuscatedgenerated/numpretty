@@ -8,6 +8,8 @@ def closest_value(input_list, input_value):
 
 
 def prettify(number):
+    if (int(number) != number) or (number < 0):
+        return str(number)
     if number < 10 ** min(i for i in places if i > 0):
         return str(number)
     num_places = len(str(number)) - 1
